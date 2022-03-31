@@ -166,19 +166,6 @@ Now let's plug these 2 values to our `Gradient Descent`:
 
 ## Multivariate Linear Regression
 
-> **Linear Algebra** ✍🏼 
-> - <a href='https://www.khanacademy.org/math/precalculus/vectors-precalc/modal/v/introduction-to-vectors-and-scalars'>Intro to Vectors & Scalars.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/vectors-precalc/modal/a/vector-operations-review'>Combined Vector Operations.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/introduction-to-the-matrix'>Intro to Matrices.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/a/representing-systems-with-matrices'>Representing linear systems with matrices.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/matrix-addition-and-subtraction-1'>Add & subtract matrices.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/matrix-multiplication-intro'>Multipling matrices.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/identity-matrix'>Identity Matrix.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/a/properties-of-matrix-multiplication'>Properties of Matrix Multiplication.</a>
-> - <a href=  'https://www.khanacademy.org/math/precalculus/precalc-matrices/modal/v/inverse-matrix-part-1'>Matrix Inverses.</a>
-> - <a href=  'https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-transpose/v/linear-algebra-transpose-of-a-matrix'>Matrix Transpose.</a>
-
-
 ### Definition for Multivariate Linear Regression
 Its same as `Univariate Linear Regression`, except it has more than one feature variable `(x)` to predict target variable `(y)`.
 

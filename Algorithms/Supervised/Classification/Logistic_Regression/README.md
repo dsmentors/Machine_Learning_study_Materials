@@ -1,7 +1,4 @@
 # Logistic Regression
-> Written by [Juzer Shakir](https://juzershakir.github.io/)
-
-
 
 ## Table of Contents
 - [Description](#description)
@@ -17,12 +14,6 @@
 
 ## Description
 A Mathematical intuition and quick guide and understanding of how Logistic Regression Algorithm works. 
-
-## Prerequisite
- - [Standard equation of a Circle](https://www.khanacademy.org/math/algebra2/intro-to-conics-alg2/modal/v/writing-standard-equation-of-circle)
-- [Dividing by Zero](https://youtu.be/J2z5uzqxJNU)
-- [Logarithm](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/introduction-to-logarithms/v/logarithms)
-- [Dependent Probability](https://www.khanacademy.org/math/statistics-probability/probability-library/modal/v/analyzing-dependent-probability)
 
 ## Notations
 - `m` 👉 Number of Training Examples.
@@ -180,7 +171,7 @@ Everything outside the circle is `y=1` and inside is `y=0`.
 > We do not need to define the decision boundary. The training set will fit the parameters θ and once you have them then that will define decision boundary.
 
 ## Cost Function
-If we choose the cost function of [Linear Regression](https://github.com/JuzerShakir/Linear_Regression#cost-function-for-univariate-linear-regression) (MSE), it turns out that this would not guarantee that when we run Gradient Desccent, it will converge to global minimum because here our hypothesis function `h(x)` is not linear, it is a sigmoid function and when we plot `J(θ)` with respect to `θ`, this is what it looks like:<br>
+If we choose the cost function of [Linear Regression](https://github.com/dsmentors/Machine_Learning_study_Materials/blob/main/Algorithms/Supervised/Regression/README.md) (MSE), it turns out that this would not guarantee that when we run Gradient Desccent, it will converge to global minimum because here our hypothesis function `h(x)` is not linear, it is a sigmoid function and when we plot `J(θ)` with respect to `θ`, this is what it looks like:<br>
 <p align = 'center'><img src = 'Formulas/non-convex.PNG'></p><br>
 Since this is has many local minimum, the Gradient Descent will not guarantee to converge to global minimum. We can also call this as non-convex function. We need a convex function which has no local minimum but one globla minimum.
 
@@ -218,7 +209,7 @@ General form of Gradient Descent :<br>
 Working out the derivative part using Calculus we get:<br>
 <p align = 'center'><img src = 'Formulas/gradient_descent.PNG'></p><br>
 
-This algorithm looks similar to [Gradient Descent of Linear Regression](https://github.com/JuzerShakir/Linear_Regression#gradient-descent-for-multivariate-linear-regression) but its not since `h(x)` here is a `logistic/sigmoid function` and `h(x)` in `linear regression` is θ<sup>T</sup>x.
+This algorithm looks similar to [Gradient Descent of Linear Regression](https://github.com/dsmentors/Machine_Learning_study_Materials/blob/main/Algorithms/Supervised/Regression/README.md) but its not since `h(x)` here is a `logistic/sigmoid function` and `h(x)` in `linear regression` is θ<sup>T</sup>x.
 
 ## Multiclass Classification
 Now we will approach the classification of data when we have more than `2 categories`. Instead of y ϵ {0,1} we will expand our definition so that y ϵ {0,1,2....,n}.<br>
@@ -251,4 +242,4 @@ The second sum, <img src = 'Formulas/term_1.PNG'>, means to explicitly exclude t
 ### Gradeint Descent
 <p align = 'center'><img src = 'Formulas/regularized_gradient_descent.PNG'></p><br>
 
-This may look identical to [Linear Regression's regularization Gradient Descent](https://github.com/JuzerShakir/Linear_Regression#gradient-descent-for-regularization) but the hypothesis function is different, here we have `Sigmoid or Logistic Function` and for Linear we have θ<sup>T</sup>x.
+This may look identical to [Linear Regression's regularization Gradient Descent](https://github.com/dsmentors/Machine_Learning_study_Materials/blob/main/Algorithms/Supervised/Regression/README.md) but the hypothesis function is different, here we have `Sigmoid or Logistic Function` and for Linear we have θ<sup>T</sup>x.

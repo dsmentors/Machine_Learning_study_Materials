@@ -75,7 +75,7 @@ Other way of representing this formula as what we are familiar with:
 >- x = x 👉 feature / input variable
 
 <p align = 'center'><img src = 'Formulas/Linear_model_representation.jpg'></p>
-<p align = 'center'><a href = 'https://archive.cnx.org/contents/20986bfa-2c2a-47f1-a48a-786122b0c606@3/graphical-analysis-of-one-dimensional-motion'>Source</a></p>
+
 
 <br>
 
